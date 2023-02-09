@@ -1,0 +1,15 @@
+function isfabi(n){
+  let arr=[]
+ 
+ for(let i=1;i<n;i++){
+   
+   res = i*(i+1)/2
+   arr.push(res);
+  
+
+   
+ } 
+ console.log(arr);
+}
+
+isfabi(10);
